@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+html body{
+    min-width: 100%;
+    min-height: 100vh;
+    padding: 0%;
+    margin: 0px;
+}
+.intro{
+    position: absolute;
+    background-image: url(sunnyside/images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px;
+    width: 100%;
+}
+.intro h1{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    color: hsl(0, 0%, 100%);
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Barlow' , sans-serif;
+    padding: 0%;
+    margin: 0px;
+}
+.intro h2{
+    position: absolute;
+    top: 230px;
+    left: 470px;
+    color: hsl(0, 0%, 100%);
+    font-size: 58px;
+    font-weight: 900;
+    font-family: 'Fraunces' , serif;
+    padding: 0%;
+    margin: 0px;
+}
+.intro img{
+    position: absolute;
+    top: 380px;
+    left: 750px;
+}
+.intro ul #about{
+    position: absolute;
+    text-decoration: none;
+    list-style-type: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Barlow' , sans-serif;
+    top: 50px;
+    left: 900px;
+}
+.intro ul #services{
+    position: absolute;
+    text-decoration: none;
+    list-style-type: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Barlow' , sans-serif;
+    top: 50px;
+    left: 1000px;
+}
+.intro ul #projects{
+    position: absolute;
+    text-decoration: none;
+    list-style-type: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Barlow' , sans-serif;
+    top: 50px;
+    left: 1120px;
+}
+.intro ul{
+    list-style: none;
+}
+.intro ul #contacts{
+    position: absolute;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Barlow' , sans-serif;
+    top: 43px;
+    left: 1240px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    width: 95px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.egg{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    top: 800px;
+    padding: 0%;
+    margin: 0px;
+    background-color: hsl(0, 0%, 100%);
+} 
+.egg img{
+    position: absolute;
+    width: 50%;
+    left: 759px;
+} 
+.egg .text{
+    position: absolute;
+    left: 150px;
+    top: 170px;
+}  
+.egg .text h3{
+    position: absolute;
+    color: hsl(212, 27%, 19%);
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Fraunces' , serif;
+    padding: 0%;
+    margin: 0px;
+    width: 300px;
+}  
+.egg .text p{
+    position: absolute;
+    color: hsl(210, 4%, 67%);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Barlow' , sans-serif;
+    top: 100px;
+    width: 500px;
+}  
+.egg .text h6{
+    position: absolute;
+    color: hsl(212, 27%, 19%);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Fraunces' , serif;
+    top: 230px;
+    width: 110px;
+    padding: 0%;
+    margin: 0px;
+    border-bottom: 5px solid hsl(51, 100%, 49%);
+} 
+.cup{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    top: 1400px;
+    padding: 0%;
+    margin: 0px;
+    background-color: hsl(0, 0%, 100%);
+} 
+.cup img{
+    position: absolute;
+    width: 50%;
+} 
+.cup .text{
+    position: absolute;
+    left: 900px;
+    top: 170px;
+}  
+.cup .text h3{
+    position: absolute;
+    color: hsl(212, 27%, 19%);
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Fraunces' , serif;
+    padding: 0%;
+    margin: 0px;
+    width: 400px;
+}  
+.cup .text p{
+    position: absolute;
+    color: hsl(210, 4%, 67%);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Barlow' , sans-serif;
+    top: 100px;
+    width: 500px;
+}  
+.cup .text h6{
+    position: absolute;
+    color: hsl(212, 27%, 19%);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Fraunces' , serif;
+    top: 230px;
+    width: 110px;
+    padding: 0%;
+    margin: 0px;
+    border-bottom: 5px solid hsl(7, 99%, 70%);
+}
+.fruit{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    top: 2000px;
+    padding: 0%;
+    margin: 0px;
+    display: flex;
+} 
+.fruit .one img{
+    position: absolute;
+    float: left;
+    width: 759.5px;
+    height: 600px;
+    justify-content: center;
+} 
+.fruit .one h3{
+    position: absolute;
+    top: 400px;
+    left: 280px;
+    color: hsl(167, 40%, 24%);
+    font-size: 25px;
+    font-weight: 800px;
+    font-family: 'Fraunces' , serif;
+    padding: 0%;
+    margin: 0px;
+}
+.fruit .one p{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    color: hsl(167, 40%, 24%);
+    font-size: 16px;
+    font-weight: 600px;
+    font-family: 'Barlow' , sans-serif;
+    top: 450px;
+    left: 180px;
+    text-align: center;
+}
+.fruit .two img{
+    position: absolute;
+    float: right;
+    left: 759px;
+    width: 759.5px;
+    height: 600px;
+    justify-content: center;
+}
+.fruit .two h3{
+    position: absolute;
+    top: 400px;
+    left: 1100px;
+    color: hsl(167, 40%, 24%);
+    font-size: 25px;
+    font-weight: 800px;
+    font-family: 'Fraunces' , serif;
+    padding: 0%;
+    margin: 0px;
+}
+.fruit .two p{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    color: hsl(167, 40%, 24%);
+    font-size: 16px;
+    font-weight: 600px;
+    font-family: 'Barlow' , sans-serif;
+    top: 450px;
+    left: 980px;
+    text-align: center;
+}
+.testi{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    top: 2600px;
+    padding: 0px;
+    margin: 0px;
+    background-color: hsl(0, 0%, 100%);
+}
+.testi h1{
+    left: 570px;
+    top: 170px;
+    position: absolute;
+    color: hsl(210, 4%, 67%);
+    font-size: 25px;
+    font-weight: 900px;
+    font-family: 'Fraunces' , serif;
+    padding: 0%;
+    margin: 0px;
+}
+#emily{
+    position: absolute;
+    left: 210px;
+    top: 300px;
+    justify-content: center;
+}
+#emily img{
+    position: absolute;
+    left: 100px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+#emily p{
+    text-align: center;
+    top: 160px;
+    left: 0px;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    color: hsl(235, 12%, 40%);
+    font-size: 15px;
+    font-weight: 600px;
+    font-family: 'Barlow' , sans-serif;
+    padding: 0%;
+    margin: 0px;
+}
+#emily h2{
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    left: 100px;
+    top: 300px;
+    color: hsl(212, 27%, 19%);
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: 'Fraunces' , serif;
+    padding: 0%;
+    margin: 0px;
+}
+#emily h5{
+    position: absolute;
+    width: 180px;
+    left: 80px;
+    top: 330px;
+    color: hsl(232, 10%, 55%);
+    font-size: 14px;
+    font-weight: 900px;
+    font-family: 'Barlow' , sans-serif;
+    padding: 0%;
+    margin: 0px; 
+}
+#tho{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    justify-content: center;
+}
+#tho img{
+    position: absolute;
+    left: 100px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+#tho p{
+    text-align: center;
+    top: 160px;
+    left: 0px;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    color: hsl(235, 12%, 40%);
+    font-size: 15px;
+    font-weight: 600px;
+    font-family: 'Barlow' , sans-serif;
+    padding: 0%;
+    margin: 0px;
+}
+#tho h2{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    left: 100px;
+    top: 300px;
+    color: hsl(212, 27%, 19%);
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: 'Fraunces' , serif;
+    padding: 0%;
+    margin: 0px;
+}
+#tho h5{
+    position: absolute;
+    width: 180px;
+    left: 80px;
+    top: 330px;
+    color: hsl(232, 10%, 55%);
+    font-size: 14px;
+    font-weight: 900px;
+    font-family: 'Barlow' , sans-serif;
+    padding: 0%;
+    margin: 0px; 
+}
+#jen{
+    position: absolute;
+    left: 980px;
+    top: 300px;
+    justify-content: center;
+}
+#jen img{
+    position: absolute;
+    left: 100px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+#jen p{
+    text-align: center;
+    top: 160px;
+    left: 0px;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    color: hsl(235, 12%, 40%);
+    font-size: 15px;
+    font-weight: 600px;
+    font-family: 'Barlow' , sans-serif;
+    padding: 0%;
+    margin: 0px;
+}
+#jen h2{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    left: 100px;
+    top: 300px;
+    color: hsl(212, 27%, 19%);
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: 'Fraunces' , serif;
+    padding: 0%;
+    margin: 0px;
+}
+#jen h5{
+    position: absolute;
+    width: 180px;
+    left: 100px;
+    top: 330px;
+    color: hsl(232, 10%, 55%);
+    font-size: 14px;
+    font-weight: 900px;
+    font-family: 'Barlow' , sans-serif;
+    padding: 0%;
+    margin: 0px; 
+}
+
+.pics{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 3400px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.pics #one{
+    position: absolute;
+    width: 379px;
+    height: 500px;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.pics #two{
+    position: absolute;
+    width: 380px;
+    height: 500px;
+    top: 0px;
+    left: 379px;
+    padding: 0px;
+    margin: 0px;
+}
+.pics #three{
+    position: absolute;
+    width: 379px;
+    height: 500px;
+    top: 0px;
+    left: 759px;
+    padding: 0px;
+    margin: 0px;
+}
+.pics #four{
+    position: absolute;
+    width: 379px;
+    height: 500px;
+    top: 0px;
+    left: 1139px;
+    padding: 0px;
+    margin: 0px;
+}
+.plus{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 3900px;
+    padding: 0%;
+    margin: 0px;
+    background-color: hsl(169, 29%, 64%);
+}
+.plus h1{
+    position: absolute;
+    top: 60px;
+    left: 700px;
+    color: hsl(168, 34%, 41%);
+    font-size: 40px;
+    font-weight: 900px;
+    font-family: 'Fraunces' , serif;
+    padding: 0%;
+    margin: 0px;
+}
+.plus #blabla{
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding: 0%;
+    margin: 0px;
+    width: 300px;
+    height: 30px;
+    top: 150px;
+    left: 680px;
+}
+.plus #blabla #ab{
+    position: absolute;
+    left: 0px;
+    color: hsl(168, 34%, 41%);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: 'Barlow' , sans-serif;
+}
+.plus #blabla #se{
+    position: absolute;
+    left: 70px;
+    color: hsl(168, 34%, 41%);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: 'Barlow' , sans-serif;
+}
+.plus #blabla #pro{
+    position: absolute;
+    left: 165px;
+    color: hsl(168, 34%, 41%);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: 'Barlow' , sans-serif;
+}
+
+.plus #icons{
+    position: absolute;
+    color: hsl(168, 34%, 41%);
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding: 0%;
+    margin: 0px;
+    width: 300px;
+    height: 30px;
+    top: 230px;
+    left: 710px;
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: 'Barlow' , sans-serif;
+}
+.plus #icons #fb{
+    position: absolute;
+    size: 20px;
+}
+.plus #icons #ig{
+    position: absolute;
+    left: 50px;
+    size: 20px;
+}
+.plus #icons #tw{
+    position: absolute;
+    top: 3px;
+    left: 97px;
+    size: 20px;
+}
+.plus #icons #pin{
+    position: absolute;
+    left: 142px;
+    size: 20px;
+}
